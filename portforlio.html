@@ -7,9 +7,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
 <link rel="stylesheet" href="style.css">
-<link href="css/style3.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
 
 <title>Portfolio</title>
+<style>
+  
+    </style>
 </head>
 <body>
     
@@ -29,7 +32,7 @@
     
     <body background="images/marbleBR.jpg">
 
-        <div class="container">
+        <div class="container containerPortfolio">
           <br>
 
         <h1 class="text-center"> Portfolio</h1>
@@ -37,41 +40,51 @@
         <br><br>
 
         <div class="row">
-            <img class="col-4" src="images/widgets.jpg">
-            <div class="centered1"><strong>Widgets</strong></div>
-          
-            <img class="col-4" src="images/webdev.jpg">
-            <div class="centered"><strong>Web Devolopment</strong></div>
-            
-            <img class="col-4" src="images/trivia.png">
-          <div class="centered2"><strong>Trivia Game</strong></div>
-          
+
+          <div class="relative-img-div col-4">
+              <img class="img" src="images/widgets.jpg">
+              <h4 class="picText">Widgets</h4>
+          </div>
+          <div class="relative-img-div col-4">
+              <img class="img" src="images/webdev.jpg">
+             <h4 class="picText">Web Dev</h4>
+          </div>
+          <div class="relative-img-div col-4">
+              <img class="img" src="images/trivia.png">
+              <h4 class="picText">Trivia Game</h4>
+          </div>
         </div>
 
         <br><br><br><br>
-        
+
         <div class="row">
-            <img class="col-4" src="images/crossword.png">
-            <div class="centered3"><strong>Word Guess</strong></div>
 
-            <img class="col-4" src="images/rps2.png">
-            <div class="centered4"><strong>Rock Paper Scissors</strong></div>
-
-            <img class="col-4" src="images/mario2.jpg">
-            <div class="centered5"><strong>RPG Game</strong></div>
-
+          <div class="relative-img-div col-4">
+            <img class="img" src="images/crossword.png">
+            <h4 class="picText wordGuess">Word Guess</h4>
+          </div>
+          <div class="relative-img-div col-4">
+            <img class="img" src="images/rps2.png">
+            <h4 class="picText"> Rock Paper Scissors</h4>
+          </div>
+          <div class="relative-img-div col-4">
+            <img class="img" src="images/mario2.jpg">
+            <h4 class="picText">RPG Game</h4>
+          </div>
+         
         </div>
-            </div>
+  </div>
 
 
+  <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+      <div class="container1 text-center">
+        <small>Copyright © Your Website</small>
+      </div>
+    </footer>
+  
 
 
-            <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-                <div class="container1 text-center">
-                  <small>Copyright © Your Website</small>
-                </div>
-              </footer>
-        
+       
 
 
 
