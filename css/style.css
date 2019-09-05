@@ -127,3 +127,7 @@ background-color: black;
     clear: both;
   } 
   
+
+  @media only screen and (max-width: 980px) {
+    body 
+  }
